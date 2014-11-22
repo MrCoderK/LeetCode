@@ -28,3 +28,8 @@ TreeNode *buildTreeRecur(Iter pstart, Iter pend, Iter istart, Iter iend)
 	res->right = buildTreeRecur(pstart+1+(ipos-istart), pend, ipos+1, iend);
 	return res;
 }
+
+int main()
+{
+	return 0;
+}
